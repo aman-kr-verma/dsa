@@ -5,20 +5,18 @@ class CharDiff {
         for(int i=0;i<s.length();i++){
             
             sum1+=(int) s.charAt(i);
-            System.out.println("sum1 " + sum1);
+            //System.out.println("sum1 " + sum1);
         }
         for(int i=0;i<t.length();i++){
             
             sum2+=(int) t.charAt(i);
-            System.out.println("sum2 " + sum2);
+            //System.out.println("sum2 " + sum2);
         }
-        System.out.println(sum2 + " " + sum1);
+        //System.out.println(sum2 + " " + sum1);
         char res = (char) (sum2-sum1);
         return res;
-
     }
 }
-
 class CharDifference{
     public static void main(String[] args) {
         CharDiff obj = new CharDiff();
