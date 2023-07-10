@@ -3,7 +3,7 @@ class Altitude {
         int altitude=-101,sum=0;
         for(int i=0;i<gain.length;i++){
             sum+=gain[i];
-            System.out.println(sum);
+            //System.out.println(sum);
             altitude = Math.max(altitude,sum);
         }
         return altitude;
