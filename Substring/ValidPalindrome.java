@@ -7,7 +7,7 @@ class ValidP {
             }
         }
         temp=temp.toLowerCase();
-        System.out.println(temp);
+        //System.out.println(temp);
         int i=0,j=temp.length()-1;
         while(i<j){
             if(temp.charAt(i)!=temp.charAt(j)) return false;
